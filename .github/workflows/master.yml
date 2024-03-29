@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go_version: [ '1.22' ]
+        go_version: [ '1.20' ]
         package:
           - github.com/confluentinc/confluent-kafka-go/otelconfluent
     steps:
